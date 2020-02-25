@@ -1,10 +1,26 @@
 {% extends 'base.html' %}
+{% load static %}
+
+<head>
+  <meta charset="utf-8">
+  <link href="{% static 'css/appnn.css' %}" rel="stylesheet" charset="utf-8">
+</head>
 
 {% block breadcrumb %}
   <li class="breadcrumb-item active">Boards</li>
 {% endblock %}
 
+
 {% block content %}
+
+
+<form class="form-inline" method="post" novalidate>
+  <input type="text" placeholder="Search.." name="search">
+  <button type="submit"><i class="fa fa-search">Search</i></button>
+</form>
+
+
+
   <table class="table">
     <thead class="thead-inverse">
       <tr>

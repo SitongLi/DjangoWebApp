@@ -1,0 +1,16 @@
+body {
+}
+
+.logo {
+	font-family: 'Simonetta', ;
+}
+
+.logo a {
+	font-family: 'Simonetta', ;
+    color:#556B2F;
+}
+
+.logo a:hover,
+.logo a:active {
+  text-decoration: none;
+}
